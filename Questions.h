@@ -10,10 +10,7 @@ char *my_strcat(const char * const str1, const char * const str2);
 
 //Question 2 definitions and prototypes
 char **read_words(const char *input_filename, int *nPtr);
-void sort_words(char **words, int size);
-void sort2_words(char **words, int size);
-
-// The function below is an example of an utility function that you might need while implementing your sort..
-// you do *NOT* have to implement them if you do not need to 
 void swap(char **str1, char **str2);
-
+void delete_wordlist(char **word_list, int size);
+void sort_words_Bubble(char **words, int size);
+void sort_words_Selection(char **words, int size);
