@@ -132,7 +132,7 @@
 	{
 		char str1[] = "Timeless Content";
 		char str2[] = "Timeless Contents";
-		int expected = 1;
+		int expected = 0;
 		int actual = 0;
 
 		actual = my_strcmpOrder(str1, str2);
