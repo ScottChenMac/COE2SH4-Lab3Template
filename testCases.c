@@ -245,6 +245,7 @@
 		SUITE_ADD_TEST(suite, TestQ1_strcat_FirstEmpty);
 		SUITE_ADD_TEST(suite, TestQ1_strcat_SecondEmpty);
 
+// Uncomment this section only after you are done with Q1.
 //		SUITE_ADD_TEST(suite, TestQ2_readandSort1);
 //		SUITE_ADD_TEST(suite, TestQ2_readandSort2);
         
